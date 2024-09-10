@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    border: 13px solid;
+    border-color: rgb(66, 255, 192);
+}
+
+.main-header{
+    text-align: center;
+}
+
+.main-header>h1{
+    margin: 0px;
+    background-color: aqua;
+}
+
+.selection{
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-btn{
+    height: 32px;
+    border: none;
+}
+
+.blue-btn{
+    background-color: lightskyblue;
+    color: white;
+    
+}
+
+.blue-btn:hover{
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.green-btn{
+    background-color: greenyellow;
+    color: white;
+}
+
+.green-btn:hover{
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.second-header{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.gambar{
+    text-align: center;
+    margin: 30px;
+}
+
+.gambar2{
+    text-align: center;
+    margin: 41.9px;
+}
+
+img {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.rumus{
+    font-size: 24px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.border-2{
+    background-color: sandybrown;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.border-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+input{
+    margin-bottom: 4px;
+    border: none;
+    border-radius: 8px;
+    width: 50%;
+    padding: 5px;
+    text-align: center;    
+}
+
+.hasil{
+    border: 2px solid;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.hasil-btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.hasil-btn>button{
+    width: 10%;
+    height: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.hitung{
+    background-color: green;
+}
+
+.hitung:hover{
+    background-color: rgb(52, 253, 52);
+}
+
+.reset{
+    background-color: red;
+}
+
+.reset:hover{
+    background-color: rgb(254, 138, 180);
+}
+
+.main-section{
+    display: flex;
+}
+
+.main-section>aside{
+    flex: 1;
+}

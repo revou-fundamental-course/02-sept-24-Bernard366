@@ -106,3 +106,14 @@ function Jumkelj() {
       console.log("Sudah dihapus")
 
 }
+
+function showSegitiga() {
+      document.getElementById('segitiga').style.display = 'flex';  // Mengatur tampilan elemen segitiga menjadi flex
+      document.getElementById('jajar-genjang').style.display = 'none';  // Menyembunyikan elemen jajar-genjang
+  }
+  
+  function showJajarGenjang() {
+      document.getElementById('segitiga').style.display = 'none';  // Menyembunyikan elemen segitiga
+      document.getElementById('jajar-genjang').style.display = 'flex';  // Mengatur tampilan elemen jajar-genjang menjadi flex
+  }
+  

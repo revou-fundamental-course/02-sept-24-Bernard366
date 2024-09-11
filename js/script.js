@@ -108,12 +108,12 @@ function Jumkelj() {
 }
 
 function showSegitiga() {
-      document.getElementById('segitiga').style.display = 'flex';  // Mengatur tampilan elemen segitiga menjadi flex
-      document.getElementById('jajar-genjang').style.display = 'none';  // Menyembunyikan elemen jajar-genjang
+      document.getElementById('segitiga').style.display = 'flex';  
+      document.getElementById('jajar-genjang').style.display = 'none';  
   }
   
   function showJajarGenjang() {
-      document.getElementById('segitiga').style.display = 'none';  // Menyembunyikan elemen segitiga
-      document.getElementById('jajar-genjang').style.display = 'flex';  // Mengatur tampilan elemen jajar-genjang menjadi flex
+      document.getElementById('segitiga').style.display = 'none'; 
+      document.getElementById('jajar-genjang').style.display = 'flex';
   }
   

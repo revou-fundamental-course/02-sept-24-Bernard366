@@ -15,7 +15,6 @@
     <main>
 <section class="selection">
     <button href="#" class="selection-btn blue-btn">Segitiga</button>
-    <button href="#" class="selection-btn green-btn">Jajar Genjang</button>
 </section>
 <section class="main-section">
     <aside>
@@ -29,14 +28,14 @@
                     <img src="assets\Rumus Luas Segitiga 2.png" alt="Gambar Segitiga">
                 </div>
                 <p class="rumus">
-                    Rumus Luas Segitiga:<br> L = Luas<br> a = Panjang Alas<br> t = Tinggi<br> L = 1/2 x a x t<br>
+                    Rumus Keliling Segitiga:<br> L = Luas<br> a = Panjang Alas<br> t = Tinggi<br> L = 1/2 x a x t<br>
                 </p>
                 <hr />
             </article>
         
             <form action="">
                 <header>
-                    <h1 class="main-header">Hitug Luas Segitiga</h1>
+                    <h1 class="second-header">Hitug Luas Segitiga</h1>
                 </header>
             <div class="border-2">
                 <div class="border-3">
@@ -54,7 +53,7 @@
                 </p>
                 <div class="hasil-btn">
                 <button type="button" class="hitung" onclick="Jumluas()">Hitung</button>
-                <button type="reset" class="reset">Reset</button>
+                <button type="button" class="reset" onclick="hapus()">Reset</button>
                 </div>
             </form>
         </section>
@@ -70,14 +69,14 @@
                     <img src="assets\Rumus Keliling Segitiga 2.png" alt="Gambar Segitiga 2">
                 </div>
                 <p class="rumus">
-                    Rumus Keliling Segitiga:<br> L = Luas<br> a = Panjang Alas<br> t = Tinggi<br> L = 1/2 x a x t<br>
+                Rumus Keliling Segitiga:<br> K = Keliling<br> s = sisi<br> K = s1 + s2 + s3 <br>
                 </p>
                 <hr />
             </article>
             
             <form action="">
                 <header>
-                    <h1 class="main-header">Hitug Luas Segitiga</h1>
+                    <h1 class="second-header">Hitug Keliling Segitiga</h1>
                 </header>
                 <div class="border-2">
                     <div class="border-3">
@@ -96,12 +95,10 @@
                     </div>
                 </div>
             
-            <p id="jawab2" class="hasil">
-                Jumlah Luas Segitiganya Adalah:
-            </p>
+            <p id="jawab2" class="hasil"></p>
             <div class="hasil-btn">
                 <button type="button" class="hitung" onclick="Jumkel()">Hitung</button>
-                <button type="button" class="reset" onclick="clear()">Reset</button>
+                <button type="button" class="reset" onclick="hapus2()">Reset</button>
             </div>
         </form>
     </section>

@@ -55,3 +55,54 @@ function hapus2(){
       console.log("Sudah dihapus")
 
 }
+
+function Jumluasj() {
+      let alas = document.getElementById("panjang_j").value;
+      let tinggi = document.getElementById("tinggi_j").value;
+  
+      if(alas <= 0 || tinggi <= 0){
+            alert("Angka tidak boleh kosong atau kurang dari 1!");
+            console.log("Masukkan angka terlebih dahulu!");
+            }else{
+            let luas = alas * tinggi;  
+            document.getElementById("jawabj").innerText = "Jawab: \n" +
+                                                          "Luas Jajar Genjang = " + alas + " x " + tinggi +"\n"+
+                                                          "Hasilnya Adalah    = " + luas;
+            console.log("Hasilnya adalah "+ luas);      
+                                                      }
+  }
+
+
+  function hapusj(){
+      document.getElementById("panjang_j").value = "";
+      document.getElementById("tinggi_j").value = "";
+      document.getElementById("jawabj").innerText = "";
+      console.log("Sudah dihapus")
+
+}
+
+function Jumkelj() {
+      let sisi1 = document.getElementById("sisi_l").value;
+      let sisi2 = document.getElementById("sisi_m").value;
+  
+      if(sisi1 === "" || sisi2 === "" || parseInt(sisi1) <= 0 || parseInt(sisi2) <= 0) {
+            alert("Angka tidak boleh kosong atau kurang dari 1!");
+            console.log("Masukkan angka terlebih dahulu!");
+      }else{
+            sisi1 = parseInt(sisi1);
+            sisi2 = parseInt(sisi2);
+            let keliling = 2 * (sisi1 + sisi2);  
+            document.getElementById("jawab2j").innerText = "Jawab: \n" +
+                                                          "Keliling Jajar Genjang = 2 x (" + sisi1 + " + " + sisi2 +")\n"+
+                                                          "Hasilnya Adalah    = " + keliling;
+            console.log("Hasilnya adalah "+ luas);      
+                                                      }
+  }
+
+
+  function hapus2j(){
+      document.getElementById("sisi_l").value = "";
+      document.getElementById("sisi_m").value = "";
+      console.log("Sudah dihapus")
+
+}

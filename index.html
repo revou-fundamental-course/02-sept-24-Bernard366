@@ -15,6 +15,7 @@
     <main>
 <section class="selection">
     <button href="#" class="selection-btn blue-btn">Segitiga</button>
+    <button href="#" class="selection-btn green-btn">Jajar Genjang</button>
 </section>
 <section class="main-section">
     <aside>
@@ -28,19 +29,19 @@
                     <img src="assets\Rumus Luas Segitiga 2.png" alt="Gambar Segitiga">
                 </div>
                 <p class="rumus">
-                    Rumus Keliling Segitiga:<br> L = Luas<br> a = Panjang Alas<br> t = Tinggi<br> L = 1/2 x a x t<br>
+                    Rumus Luas Segitiga:<br> L = Luas<br> a = Panjang Alas<br> t = Tinggi<br> L = 1/2 x a x t<br>
                 </p>
                 <hr />
             </article>
         
             <form action="">
                 <header>
-                    <h1 class="second-header">Hitug Luas Segitiga</h1>
+                    <h1 class="second-header">Hitung Luas Segitiga</h1>
                 </header>
             <div class="border-2">
                 <div class="border-3">
-                    <label for="panjang-alas-s">Panjang</label>
-                    <input type="number" id="panjang" placeholder="Masukkan Luas">
+                    <label for="panjang-alas-s">Panjang Alas</label>
+                    <input type="number" id="panjang" placeholder="Masukkan Alas">
                 </div>
         
                 <div class="border-3">
@@ -69,14 +70,14 @@
                     <img src="assets\Rumus Keliling Segitiga 2.png" alt="Gambar Segitiga 2">
                 </div>
                 <p class="rumus">
-                Rumus Keliling Segitiga:<br> K = Keliling<br> s = sisi<br> K = s1 + s2 + s3 <br>
+                Rumus Keliling Segitiga:<br> K = Keliling<br> s = Sisi<br> K = s1 + s2 + s3 <br>
                 </p>
                 <hr />
             </article>
             
             <form action="">
                 <header>
-                    <h1 class="second-header">Hitug Keliling Segitiga</h1>
+                    <h1 class="second-header">Hitung Keliling Segitiga</h1>
                 </header>
                 <div class="border-2">
                     <div class="border-3">
@@ -104,6 +105,91 @@
     </section>
     </aside>
 </section>
+<section class="main-section">
+    <aside>
+        <section>
+            <header class="second-header">
+                <h1>Luas Jajar Genjang</h1>
+            </header>
+        
+            <article>
+                <div class="gambar">
+                    <img src="assets\Rumus Luas Jajaran Genjang 2.png" alt="Gambar Jajar Genjang">
+                </div>
+                <p class="rumus">
+                    Rumus Luas Jajar Genjang:<br> L = Luas<br> a = Panjang Alas<br> t = Tinggi<br> L = a x t<br>
+                </p>
+                <hr />
+            </article>
+        
+            <form action="">
+                <header>
+                    <h1 class="second-header">Hitung Luas Jajar Genjang</h1>
+                </header>
+            <div class="border-2">
+                <div class="border-3">
+                    <label for="panjang-alas-s">Panjang Alas</label>
+                    <input type="number" id="panjang_j" placeholder="Masukkan Alas">
+                </div>
+        
+                <div class="border-3">
+                    <label for="tinggi-s">Tinggi</label>
+                    <input type="number" id="tinggi_j" placeholder="Masukkan Tinggi">
+                </div>
+            </div>
+        
+                <p id="jawabj" class="hasil">
+                </p>
+                <div class="hasil-btn">
+                <button type="button" class="hitung" onclick="Jumluasj()">Hitung</button>
+                <button type="button" class="reset" onclick="hapusj()">Reset</button>
+                </div>
+            </form>
+        </section>
+    </aside>
+    <aside>
+        <section>
+            <header class="second-header">
+                <h1>Keliling Jajar Genjang</h1>
+            </header>
+        
+            <article>
+                <div class="gambar">
+                    <img src="assets\Rumus Luas Jajaran Genjang 2.png" alt="Gambar Jajar Genjang">
+                </div>
+                <p class="rumus">
+                Rumus Keliling Jajar Genjang:<br> K = Keliling<br> a = Sisi Lurus(Atas & Bawah)<br> b = Sisi Miring <br> K = 2 x (a + b) <br>
+                </p>
+                <hr />
+            </article>
+            
+            <form action="">
+                <header>
+                    <h1 class="second-header">Hitung Keliling Jajar Genjang</h1>
+                </header>
+                <div class="border-2">
+                    <div class="border-3">
+                        <label for="sisi1">Sisi Lurus</label>
+                        <input type="number" id="sisi_l" placeholder="Masukkan Sisi Lurus">
+                    </div>
+                    
+                    <div class="border-3">
+                        <label for="sisi2">Sisi Miring</label>
+                        <input type="number" id="sisi_m" placeholder="Masukkan Sisi Miring">
+                    </div>
+                </div>
+            
+            <p id="jawab2j" class="hasil"></p>
+            <div class="hasil-btn">
+                <button type="button" class="hitung" onclick="Jumkelj()">Hitung</button>
+                <button type="button" class="reset" onclick="hapus2j()">Reset</button>
+            </div>
+        </form>
+    </section>
+    </aside>
+</section>
+
+
 </main>
 <script src="js\script.js"></script>
 </body>

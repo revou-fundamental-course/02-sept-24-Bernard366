@@ -14,20 +14,23 @@ function Jumluas() {
 
   
 function Jumkel() {
-
-      let sisi1 = parseInt(document.getElementById("sisi1").value);
-      let sisi2 = parseInt(document.getElementById("sisi2").value);
-      let sisi3 = parseInt(document.getElementById("sisi3").value);
+      let sisi1 = document.getElementById("sisi1").value;
+      let sisi2 = document.getElementById("sisi2").value;
+      let sisi3 = document.getElementById("sisi3").value;
   
-      if(sisi1 <= 0 || sisi2 <= 0 || sisi3 <= 0 ){
-            alert("Angka tidak boleh kosong atau kurang dari 1!")
-      }else{
-      let keliling = sisi1 + sisi2 + sisi3;
-      document.getElementById("jawab2").innerText =  "Jawab: \n" +
-                                                    "Keliling Segitiga      = " + sisi1 + " + " + sisi2 + " + " + sisi3 +"\n"+
-                                                    "Hasilnya Adalah    = " + keliling;
+      if (sisi1 === "" || sisi2 === "" || sisi3 === "" || parseInt(sisi1) <= 0 || parseInt(sisi2) <= 0 || parseInt(sisi3) <= 0) {
+          alert("Angka tidak boleh kosong atau kurang dari 1!");
+      } else {
+          sisi1 = parseInt(sisi1);
+          sisi2 = parseInt(sisi2);
+          sisi3 = parseInt(sisi3);
+  
+          let keliling = sisi1 + sisi2 + sisi3;
+          document.getElementById("jawab2").innerText =  "Jawab: \n" +
+                                                        "Keliling Segitiga      = " + sisi1 + " + " + sisi2 + " + " + sisi3 +"\n"+
+                                                        "Hasilnya Adalah    = " + keliling;
       }
-}
+  }
 
 function hapus(){
 
